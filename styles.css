@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Sharp Grotesk 23', 'Sharp Grotesk 23 KR',
+    'Sharp Grotesk 23 Thai';
+  color: black;
+  background-color: #f7f5f2;
+}
+.s-Products {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 50px;
+}
+.s-Logo {
+  width: 40px;
+}
+.s-Product__name {
+  font-weight: 700;
+  font-size: large;
+}
+.s-Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.s-Products__detail {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1e1d20;
+}
+.s-Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+main {
+  padding: 1rem;
+  margin: auto;
+  max-width: 1200px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
